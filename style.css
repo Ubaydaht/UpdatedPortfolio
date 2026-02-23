@@ -1,0 +1,56 @@
+.profile{
+    width: 80%;
+}
+.about{
+    width: 68%;
+}
+.tech{
+    width: 30%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxes{
+    border-radius: 20px; 
+    width: 350px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.144); background-color: white;
+}
+.get{
+    width: 60%;
+}
+.mode{
+    display: none;
+}
+@media (max-width:1024px) {
+    .profile{
+        width: 100%
+    }
+    .about{
+        width: 100%;
+    }
+    .tech{
+        padding-top: 20px;
+        width: 100%;
+    }
+    .box{
+        display: block;
+    }
+    .boxes{
+        width: 90%;
+        margin: auto 5% 0 5% ;
+    }
+    .boes{
+        margin-top: 40px;
+    }
+    .get{
+        width: 100%;
+    }
+    .contact{
+        margin-top: 30px;
+    }
+    .mode{
+        display: block;
+    }
+}
