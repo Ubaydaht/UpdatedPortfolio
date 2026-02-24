@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="body" style="background-color: white;">
-    <nav class="navbar  navbar-expand-lg d-flex justify-content-between">
+    <nav class="navbar  navbar-expand-lg d-flex justify-content-between bg-light" style="position: sticky;  top: 0; box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.103); ">
         <div class="container">
             <div>
             <a href="" class="navbar-brand"> < Ubaydah/></a>
@@ -23,16 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarLinks">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item pe-4">
-                    <a href="" class="nav-link text-dark ">About</a>
+                    <a href="#aboutMe" class="nav-link text-dark ">About</a>
                 </li>
                 <li class="nav-item pe-4">
-                    <a href="" class="nav-link text-dark">Skill</a>
+                    <a href="#aboutMe" class="nav-link text-dark">Skill</a>
                 </li>
                 <li class="nav-item pe-4">
-                    <a href="" class="nav-link text-dark">Projects</a>
+                    <a href="#projectMe" class="nav-link text-dark">Projects</a>
                 </li>
                 <li class="nav-item pe-4">
-                    <a href="" class="nav-link text-dark">Contact</a>
+                    <a href="#contactMe" class="nav-link text-dark">Contact</a>
                 </li>
             </ul>
             <button class="btn" onclick="mode()"><img src="icons/material-symbols--dark-mode-outline.png" alt=""></button>
@@ -50,14 +50,15 @@
      <p class="profile" style="text-align: justify; font-size: 17px;" class="pt-3">Frontend Developer focused on building modern, scalable, and responsive web applications. I translate UI/UX designs into clean, maintainable code and improve performance and accessibility. I'm constanty learning and building projects to sharpen my skils and deliver better digital experiences.</p>
      <p style="font-size: 20px;"><span class="fw-bold"  >Tech stack:</span> HTML, CSS, Bootstrap, JavaScript, Git </p>
      <div class="d-flex gap-3 mb-3">
-        <button class="btn btn-dark">View My Work</button>
-        <button class="btn border border-2 border-dark">Get In Touch</button>
+        <a href="#projectMe" class="btn btn-dark">View My Work</a>
+        <a href="#contactMe" class="btn border border-2 border-dark">Get In Touch</a>
      </div>
      <div class="d-flex gap-4">
-        <img src="icons/mi--call.png" alt="">
-        <img src="icons/tabler--mail (1).png" alt="">
-        <img src="icons/skill-icons--linkedin (1).png" alt="">
-        <img src="icons/devicon--github.png" alt="">
+        <a href="https://wa.me/2348021063036?text=Hello%20Ubaydah%20I%20am%20getting%20to%20you%20from%20your%20portfolio"><img src="icons/logos--whatsapp-icon.png" alt=""></a>
+         <a href="mailto:ubaidatolasunkanmi@gmail.com"><img src="icons/tabler--mail (1).png" alt=""></a>
+        
+        <a href="https://www.linkedin.com/in/ubaidat-olasunkanmi-34476271?utm_source=share&utm_campaign=share_via&utm_content=profile&ut-m_medium=ios_app"><img src="icons/skill-icons--linkedin (1).png" alt=""></a>
+       <a href="https://github.com/Ubaydaht"> <img src="icons/devicon--github.png" alt=""> </a>
      </div>
      </div>
     <!-- right -->
@@ -69,13 +70,14 @@
 
 <!-- end of hero  -->
  <section class="container pt-5">
-     <h3 class="fs-1 fw-bold">About Me</h3>
+     <h3 class="fs-1 fw-bold" id="aboutMe">About Me</h3>
+     <hr>
 
  <div class=" d-lg-flex gap-5  ">
     <!-- left  -->
     <div class="about">
     <p  style="text-align: justify; font-size: 17px;">I am a Frontend Software Developer who specializes in building responsive, modern and user-friendly web applications. i turn ideas and designs into functional, interactive websites using clean and efficient code. I'm passionate about learning new technologies and improving user experience through intuitive interfaces.</p>
-    <p style="font-size: 20px; text-align: justify;">I graduated from Ladoke Akintola University of Technologies with a Bachelor of Technology in Computer Science (First Class Honour) in 2025, with relevant coursework in Software Development</p>
+    <p style="font-size: 17px; text-align: justify;">I graduated from Ladoke Akintola University of Technology(LAUTECCH) with a Bachelor of Technology in Computer Science (First Class Honour) in 2025, with relevant coursework in Software Development</p>
     </div>
     <!-- right  -->
      <div class="tech" >
@@ -96,11 +98,12 @@
 </section>
 
 <!-- end of about  -->
-    <section class="container pb-5 pt-4 ">
+    <section class="container pb-5 pt-4 " id="projectMe">
          <h3 class="fs-1 fw-bold">Projects</h3>
+         <hr>
          <div class="box pt-4">
             <div class="boxes">
-                <img src="images/1728202046323.jpg" alt="" width="100%"; height="200px" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <img src="images/riam.PNG" alt="" width="100%"; height="200px" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                 <div class="p-3">
                     <h3 >Riam Websites</h3>
                 <span >A simple e-commerce for fashion business.</span>
@@ -111,8 +114,8 @@
                     <button class="btn rounded-pill border border-1 btn-sm">JavaScript</button>
                 </div>
                <div class="pt-3 d-flex gap-3">
-                 <a href="" class="btn bg-dark text-light ">Live Demo</a>
-                <a href="" class="btn bg-dark text-light "> <img src="icons/devicon--github.png" alt="">View Code</a>
+                 <a href="https://riam-stitches.vercel.app/" class="btn bg-dark text-light ">Live Demo</a>
+                <a href="https://github.com/Ubaydaht/RiamStitches" class="btn bg-dark text-light "> <img src="icons/devicon--github.png" alt="">View Code</a>
                 </div>
                </div>
             </div>
@@ -129,15 +132,15 @@
                     <button class="btn rounded-pill border border-1 btn-sm">Bootstrap</button>
                 </div>
                <div class="pt-3 d-flex gap-3">
-                 <a href="" class="btn bg-dark text-light ">Live Demo</a>
-                <a href="" class="btn bg-dark text-light "> <img src="icons/devicon--github.png" alt="">View Code</a>
+                 <a href="https://dribbble-liard-three.vercel.app/" class="btn bg-dark text-light ">Live Demo</a>
+                <a href="https://github.com/Ubaydaht/Dribbble" class="btn bg-dark text-light "> <img src="icons/devicon--github.png" alt="">View Code</a>
                 </div>
                </div>
             </div>
 
             <!-- third  -->
              <div class="boxes boes">
-                <img src="images/1728202046323.jpg" alt="" width="100%"; height="200px" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                <img src="images/todo.PNG" alt="" width="100%"; height="200px" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
                 <div class="p-3">
                     <h3 >Todo List Application</h3>
                 <span >An application to add, edit and delete tasks</span>
@@ -148,8 +151,8 @@
                     <button class="btn rounded-pill border border-1 btn-sm">JavaScript</button>
                 </div>
                <div class="pt-3 d-flex gap-3">
-                 <a href="" class="btn bg-dark text-light ">Live Demo</a>
-                <a href="" class="btn bg-dark text-light "> <img src="icons/devicon--github.png" alt="">View Code</a>
+                 <a href="https://todolist-app-opal.vercel.app/" class="btn bg-dark text-light ">Live Demo</a>
+                <a href="https://github.com/Ubaydaht/TodolistApp" class="btn bg-dark text-light "> <img src="icons/devicon--github.png" alt="">View Code</a>
                 </div>
                </div>
             </div>
@@ -163,8 +166,9 @@
     </section>
 
     <!-- end of project -->
-     <section class="container pb-5 pt-4">
+     <section class="container pb-5 pt-4" id="contactMe">
         <h3>Get In Touch</h3>
+        <hr>
         <span>I'm always open to discussing new opportunites, websites and application development, and feedbacks</span>
         <div class="d-lg-flex justify-content-between pt-3 ">
             <!-- left  -->
@@ -193,7 +197,7 @@
         <a href=""class="rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px; background-color: rgba(128, 128, 128, 0.103);"><img src="icons/mi--call.png" alt=""></a>
         <div>
             <span>Phone</span>
-            <span class="d-block fw-medium" >08021063036</span>
+            <a href="tel:+2348021063036" class="d-block fw-medium" >08021063036</a>
         </div>
     </div>
     <div  class="d-flex gap-3 align-items-center pt-4">
@@ -204,7 +208,7 @@
         </div>
     </div>
     <div  class="d-flex gap-3 align-items-center pt-4">
-        <a href="" class="rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px; background-color: rgba(128, 128, 128, 0.103);"><img src="icons/skill-icons--linkedin (1).png" alt=""></a>
+        <a href="https://github.com/Ubaydaht" class="rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px; background-color: rgba(128, 128, 128, 0.103);"><img src="icons/skill-icons--linkedin (1).png" alt=""></a>
         <div>
             <span>LinkedIn</span>
             <span class="d-block fw-medium">Connect with me</span>
